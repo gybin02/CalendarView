@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".test.Main2Activity">
+
+    <TextView
+        android:onClick="onDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击对话框" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
